@@ -3,6 +3,8 @@ function runTask4Computations() {
     return null;
   }
 
+  console.log("[initial] CARDS_DATA (before array methods):", CARDS_DATA);
+
   // reduce: fold the array into one number — here, sum of all title string lengths.
   const totalTitleChars = CARDS_DATA.reduce(function (sum, card) {
     return sum + card.title.length;

@@ -48,3 +48,5 @@ const CARDS_DATA = [
     imageUrl: "resources/card_6.png"
   }
 ];
+
+console.log(CARDS_DATA);
